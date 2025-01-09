@@ -3,6 +3,9 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+.group_3_0{
+    display: flex;
+}
 .sub_dire{
     font-family: "Love Light", serif;
     font-size: 32px;
