@@ -14,6 +14,7 @@
     height: 63px;
     justify-content: space-between;
     z-index: 1;
+    margin: -24px 2px 0 0;
 }
 .sub_1{
     text-align: center;
@@ -37,6 +38,8 @@
     width: 119px;
     height: 140px;
     color: #DBC100;
+    font-weight: 100;
+    text-shadow: 0px 2px 2px #0000009e;
 }
 .sub_inv{
     font-family: "Cormorant", serif;

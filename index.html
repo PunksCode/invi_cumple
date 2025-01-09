@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./assets/css/section_one.css">
     <link rel="stylesheet" href="./assets/css/section_two.css">
     <link rel="stylesheet" href="./assets/css/section_three.css">
+    <link rel="stylesheet" href="./assets/css/section_four.css">
 </head>
 <body>
     <main>
@@ -34,11 +35,11 @@
     </section>
     <section class="section_2_2">
         <h3 class="question">¿Cuanto falta?</h3>
-        <div>
-            <h4>19 DIAS</h4>
-            <h4>14 HORAS</h4>
-            <h4>02 MINUTOS</h4>
-            <h4>33 SEGUNDOS</h4>
+        <div class="gran_dia">
+            <h5 class="cont"><span class="dias" id="dias">19</span><span class="count">DIAS</span></h5>
+            <h5 class="cont"><span class="horas" id="horas">14</span><span class="count">HORAS</span></h5>
+            <h5 class="cont"><span class="min" id="min">02</span><span class="count">MINUTOS</span></h5>
+            <h5 class="cont"><span class="seg" id="seg">33</span><span class="count">SEGUNDOS</span></h5>
         </div>
     </section>
 </section>
@@ -52,8 +53,8 @@
     <img class="abejas" src="./assets/img/abejas.png" alt="abejas">
 </div>
     <div class="buttons">
-    <button class="btn_confirmar">Confirma tu asistencia</button>
-    <button class="btn_ubi">Ver ubicación</button>
+    <button class="btn_confirmar" id="btn-acept"><img class="img_call" src="./assets/img/btn_call.png" alt="img_call"><span class="asis">Confirma tu asistencia</span></button>
+    <button class="btn_ubi" id="btn-gps"><img class="img_gps" src="./assets/img/btn_ubi.png" alt="img_gps"><span class="gps">Ver ubicación</span></button>
 </div>
 </section>
 <section class="section_4">
@@ -66,5 +67,7 @@
     <p class="p_ty">¡Gracias!</p>
 </section>
 </main>
+<script src="./assets/js/contador.js"></script>
+<script src="./assets/js/btn.js"></script>
 </body>
 </html>
