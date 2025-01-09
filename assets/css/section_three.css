@@ -1,0 +1,40 @@
+.section_3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.sub_dire{
+    font-family: "Love Light", serif;
+    font-size: 32px;
+    color: #0575B1;
+}
+.dire{
+    font-family: "Cormorant", serif;
+    font-size: 20px;
+}
+.group_3{
+    display: flex;
+}
+.group_3_1{
+    width: 150px;
+    text-align: center;
+}
+.abejas{
+    width: 107px;
+    height: 83px;
+}
+.buttons{
+    display: flex;
+    gap: 28px;
+    margin: 15px 0;
+}
+.btn_confirmar, .btn_ubi{
+    width: 125px;
+    height: 44px;
+    background-color: #88B9B0;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}

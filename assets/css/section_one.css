@@ -1,0 +1,45 @@
+.section_1{
+    display: flex;
+    flex-direction: column;
+}
+.group_1{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 0 0;
+}
+.img_panal{
+    flex-direction: column;
+    display: flex;
+    width: 68px;
+    height: 63px;
+    justify-content: space-between;
+    z-index: 1;
+}
+.sub_1{
+    text-align: center;
+    font-size: 24px;
+    font-family: "Cormorant Upright", serif;
+    margin: 0 0 0 88px;
+}
+.img_winnie{
+    width: 189px;
+    height: 177px;
+}
+.group_2{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 24px 0 7px;
+    align-items: center;
+}
+.titulo{
+    font-family: "Love Light", serif;
+    font-size: 50px;
+    width: 119px;
+    height: 140px;
+    color: #DBC100;
+}
+.sub_inv{
+    font-family: "Cormorant", serif;
+    text-align: center;
+    margin: 15px 32px 20px 32px;
+}

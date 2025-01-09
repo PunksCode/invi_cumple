@@ -1,0 +1,40 @@
+.name{
+    font-size: 50px;
+    font-family: "Love Light", serif;
+    color: #0575B1;
+    text-align: center;
+}
+.fecha{
+    display: flex;
+    align-items: center;
+}
+.sem_hour{
+    font-size: 20px;
+    font-family: "Cormorant", serif;
+    width: 80px;
+    text-align: center;
+}
+.dia{
+    font-size: 36px;
+    font-family: "Cormorant", serif;
+    font-weight: bold;
+    width: 62px;
+    color: #DBC100;
+    text-align: center;
+    border-left: 2px solid #DBC100;
+    border-right: 2px solid #DBC100;
+    margin: 0 20px 0 20px;
+}
+.mes{
+    font-size: 20px;
+    font-family: "Cormorant", serif;
+    width: 80px;
+    text-align: center;
+}
+.question{
+    font-size: 32px;
+    font-family: "Love Light", serif;
+    text-align: center;
+    color: #0575B1;
+    margin: 22px 0;
+}
