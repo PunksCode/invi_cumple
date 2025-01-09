@@ -1,4 +1,4 @@
-let countDownDate = new Date("Jan 25, 2025 17:00:00").getTime();
+let countDownDate = new Date("Jan 25, 2025 16:00:00").getTime();
 
 // Actualizar la cuenta regresiva cada 1 segundo
 let x = setInterval(function() {
